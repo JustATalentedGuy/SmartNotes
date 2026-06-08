@@ -1,4 +1,4 @@
-# Smart Notes Generator v2
+# Smart Notes Generator
 
 A full-stack AI-powered study notes tool with FastAPI backend and React TypeScript frontend.
 
