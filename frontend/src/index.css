@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+    background: #0d0d14;
+    color: #e2e4f0;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #2a2a3d; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #3a3a55; }
+}
+
+@layer components {
+  .step-connector {
+    @apply h-px flex-1 bg-border;
+  }
+  .metric-bar {
+    @apply h-1.5 rounded-full bg-border overflow-hidden;
+  }
+  .metric-fill {
+    @apply h-full rounded-full transition-all duration-700;
+  }
+}

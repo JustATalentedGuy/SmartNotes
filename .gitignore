@@ -1,0 +1,5 @@
+backend/__pycache__/
+backend/data/smart_notes.db
+frontend/node_modules/
+__pycache__/
+*.py[cod]
