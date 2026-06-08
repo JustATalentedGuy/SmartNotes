@@ -110,7 +110,7 @@ pip install sentence-transformers
 
 | | Free Mode | API Mode |
 |---|---|---|
-| Cost | £0 — uses your claude.ai account | Per-token Anthropic API billing |
+| Cost | Zero Cost — uses your claude.ai account | Per-token Anthropic API billing |
 | Notes generation | Copy prompt → paste response | Automatic |
 | RAG Q&A | Copy prompt → paste in claude.ai | Automatic |
 
